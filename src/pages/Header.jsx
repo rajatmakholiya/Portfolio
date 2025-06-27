@@ -15,7 +15,6 @@ const Header = ({ setCurrentTheme, currentTheme }) => {
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
-        // boxShadow:"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
       }}
     >
       <Link to="/">
@@ -27,8 +26,9 @@ const Header = ({ setCurrentTheme, currentTheme }) => {
       <div className="flex gap-10">
         <Link to="/">
           <Typography
-            variant="h5"
+            variant="h6"
             fontWeight={500}
+          
             // onClick={() =>
             //   toast.info("Component Unavailable in this Version", {
             //     autoClose: 3000,
@@ -44,33 +44,32 @@ const Header = ({ setCurrentTheme, currentTheme }) => {
           </Typography>
         </Link>
         <Link to="/blogs">
-          <Typography variant="h5" fontWeight={500}>
+          <Typography variant="h6" fontWeight={500}>
             Blogs
           </Typography>
         </Link>
         <Link to="/experience">
-          <Typography variant="h5" fontWeight={500}>
+          <Typography variant="h6" fontWeight={500}>
             Experience
           </Typography>
         </Link>
         <Link to="/resume">
-          <Typography variant="h5" fontWeight={500}>
+          <Typography variant="h6" fontWeight={500}>
             Resume
           </Typography>
         </Link>
         <Link to="/cv">
-          <Typography variant="h5" fontWeight={500}>
+          <Typography variant="h6" fontWeight={500}>
             CV
           </Typography>
         </Link>
         <Link to="/projects">
-          <Typography variant="h5" fontWeight={500}>
+          <Typography variant="h6" fontWeight={500}>
             Projects
           </Typography>
         </Link>
       </div>
       <div className="flex items-center gap-5">
-        <SearchIcon />
         <IconButton
           size="small"
           onClick={() =>

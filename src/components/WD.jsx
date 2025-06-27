@@ -2,17 +2,17 @@ export default function WD({ currentTheme }) {
   return (
     <div
       className={`min-h-screen p-6 md:p-12 font-sans ${
-        currentTheme === 'dark' ? 'bg-gray-900 text-gray-200' : 'bg-gray-100 text-gray-800'
+        currentTheme === 'dark' ? 'bg-[#242424] text-gray-200' : 'bg-gray-100 text-gray-800'
       }`}
     >
       <div
         className={`max-w-6xl mx-auto shadow-xl rounded-xl overflow-hidden grid grid-cols-1 md:grid-cols-3 gap-6 p-8 ${
-          currentTheme === 'dark' ? 'bg-gray-800' : 'bg-white'
+          currentTheme === 'dark' ? 'bg-[#3a3a3a]' : 'bg-white'
         }`}
       >
         {/* Left Column */}
         <div className="space-y-6 col-span-1">
-          {/* Profile */}
+          {/* Profile */}   
           <div className="text-center">
             <h1 className={`text-3xl font-bold ${currentTheme === 'dark' ? 'text-blue-400' : 'text-blue-600'}`}>
               Rajat Makholiya

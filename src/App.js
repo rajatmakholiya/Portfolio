@@ -31,7 +31,7 @@ function App() {
           ...(currentTheme === "dark"
             ? {
                 background: {
-                  default: "#1a1a1a",
+                  default: "#242424",
                   paper: "#1E1E1E",
                 },
                 primary: {

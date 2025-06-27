@@ -3,13 +3,13 @@ const CV = ({ currentTheme }) => {
     <div
       className={`min-h-screen p-6 sm:p-10 ${
         currentTheme === "dark"
-          ? "bg-gray-900 text-gray-200"
+          ? "bg-[#242424] text-gray-200"
           : "bg-gray-100 text-gray-800"
       }`}
     >
       <div
         className={`max-w-4xl mx-auto shadow-xl rounded-2xl p-8 space-y-8 ${
-          currentTheme === "dark" ? "bg-gray-800" : "bg-white"
+          currentTheme === "dark" ? "bg-[#3a3a3a]" : "bg-white"
         }`}
       >
         <header className="text-center space-y-1">
