@@ -8,7 +8,13 @@ import { Stack } from "@mui/material";
 
 const ProjectCard = ({ project, tech, date, info, link }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{
+    maxWidth: 345,
+    backdropFilter: "blur(10px)",
+    border: "1px solid rgba(255, 255, 255, 0.1)",
+    borderRadius: "16px",
+  }}
+>
       <CardMedia
         sx={{ height: 140 }}
         image=""
