@@ -15,6 +15,7 @@ import DevOps from "./components/Devops";
 import AIML from "./components/AIML";
 import CV from "./pages/CV";
 import Projects from "./pages/Projects";
+import Certifications from "./pages/Certifications";
 
 
 function App() {
@@ -100,6 +101,10 @@ function App() {
               <Route
                 path="/projects"
                 element={<Projects />}
+              />
+              <Route
+                path="/certifications"
+                element={<Certifications />}
               />
             </Routes>
           </div>

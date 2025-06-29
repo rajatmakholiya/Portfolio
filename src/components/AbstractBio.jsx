@@ -5,7 +5,9 @@ import Image from "../assets/Profile.jpg";
 import Grid from '@mui/material/Grid';
 import SchoolIcon from "@mui/icons-material/School";
 import DownloadIcon from "@mui/icons-material/Download";
-
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 export default function AbstractBio() {
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -17,30 +19,37 @@ export default function AbstractBio() {
     document.body.removeChild(link);
   };
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2}  alignItems={"center"}>
       <Grid size={2}></Grid>
       <Grid size={2}>
         <Stack
           justifyContent={"center"}
           marginInline={"auto"}
           alignItems={"center"}
+          spacing={1}
         >
-          <img src={Image} alt="Profile Pic" className="max-w-36" />
+          <img src={Image} alt="Profile Pic" className="max-w-36 max-h-[80vh]" />
           <Typography variant="h5" fontWeight={500}>
             Rajat Makholiya
           </Typography>
           <Typography variant="subtitle1" fontWeight={500}>
             Web Developer
           </Typography>
+          <Stack direction={"row"} spacing={2} alignItems={"center"}
+          >
+            <EmailOutlinedIcon onClick={() => window.open("mailto:rajatmakholiya07@gmail.com")} cursor="pointer" />
+            <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/rajat-makholiya-1b92a1222/")} cursor="pointer"/>
+            <GitHubIcon onClick={() => window.open("https://github.com/rajatmakholiya")} cursor="pointer"/>
+          </Stack>
         </Stack>
       </Grid>
       <Grid size={6}>
         <Stack>
           <Typography variant="h5" fontWeight={700} paddingY={2}>
-            About Me
+            A Little About Me
           </Typography>
           <Typography variant="subtitle2">
-            👋 Hi, I’m a <b>Full Stack Developer</b> focused on building clean,
+            I’m a <b>Full Stack Developer</b> focused on building clean,
             scalable, and impactful web applications. With over two years of
             hands-on experience, I specialize in creating responsive and
             high-performance frontends using React and Next.js, backed by robust
@@ -49,9 +58,11 @@ export default function AbstractBio() {
             infrastructure. I'm comfortable setting up CI/CD pipelines, working
             with Docker, and deploying scalable apps on platforms like AWS and
             Vercel. This allows me to deliver end-to-end solutions that are not
-            only functional, but also reliable and cloud-ready. Whether it’s
-            optimizing UX, deploying full-stack systems, or mentoring teammates,
-            I love turning complex challenges into intuitive digital
+            only functional, but also reliable and cloud-ready. 
+            <br/>
+            <br/>
+            Whether it’s
+            optimizing UX or deploying full-stack systems.I love turning complex challenges into intuitive digital
             experiences. Take a look at my work and let’s build
             something impactful together!
           </Typography>
@@ -66,10 +77,9 @@ export default function AbstractBio() {
               marginY: "20px",
               bgcolor: "#1a1a1a",
               color: "white",
-              border: "1px solid rgba(255, 255, 255, 0.2)", // thin, subtle white border
+              border: "1px solid rgba(255, 255, 255, 0.2)", 
               "&:hover": {
-                border: "1px solid rgba(255, 255, 255, 0.6)", // slightly more visible on hover
-                backgroundColor: "#222", // slightly lighter for hover effect
+                backgroundColor: "#222",
               },
             }}
           >
