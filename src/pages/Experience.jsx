@@ -10,6 +10,7 @@ import FastfoodIcon from "@mui/icons-material/Fastfood";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import HotelIcon from "@mui/icons-material/Hotel";
 import RepeatIcon from "@mui/icons-material/Repeat";
+import SmartToyIcon from "@mui/icons-material/SmartToy";
 import Typography from "@mui/material/Typography";
 import CodeIcon from "@mui/icons-material/Code";
 import { Button } from "antd";
@@ -62,7 +63,7 @@ const Experience = () => {
               <b>
                 <i>Web Developer </i>
               </b>
-              helped Develop An ed-tech organization website which is completely
+              helped Develop and optimise an ed-tech organization website which is completely
               mobile responsive, user friendly and shares the most relevant and
               precised information about the organisation.
             </Typography>
@@ -103,6 +104,45 @@ const Experience = () => {
               created an oncology care app, enhancing patient monitoring and
               admin workflows. Additionally, I mentored two interns, helping
               them ramp up and contribute to live projects quickly.
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            variant="subtitle1"
+            color="text.secondary"
+            fontWeight={500}
+          >
+            May 2025 - Current (3 months)
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot color="primary">
+              <SmartToyIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <Typography
+              variant="h6"
+              component="span"
+              onClick={() => window.open("https://outlier.ai/", "_blank")}
+              style={{ cursor: "pointer" }}
+            >
+              Outlier AI - Prompt Engineer/ LLM Trainer (Freelancer)
+            </Typography>
+            <Typography>
+              Worked as a{" "}
+              <b>
+                <i>Prompt Engineer/ LLM Trainer(Full Stack),</i>
+              </b>{" "}
+             focused on prompt engineering and LLM optimization through
+              reinforcement learning with human feedback (RLHF). Contributed to
+              LLM training by crafting high-quality prompts, grading model
+              outputs, and enhancing model performance via human-in-the-loop
+              evaluations.
             </Typography>
           </TimelineContent>
         </TimelineItem>
