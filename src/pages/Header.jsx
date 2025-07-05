@@ -9,12 +9,14 @@ const Header = ({ setCurrentTheme, currentTheme }) => {
 
   const navLinks = [
     { to: "/", label: "Bio" },
-    { to: "/blogs", label: "Blogs" },
+    // { to: "/blogs", label: "Blogs" },
     { to: "/experience", label: "Experience" },
+    { to: "/skills", label: "Skills" },
     { to: "/resume", label: "Resume" },
     { to: "/cv", label: "CV" },
     { to: "/projects", label: "Projects" },
     { to: "/certifications", label: "Certifications" },
+
   ];
 
   return (
