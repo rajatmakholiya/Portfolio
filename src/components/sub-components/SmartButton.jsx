@@ -1,36 +1,35 @@
 import { Link } from 'react-router-dom';
 
-const SmartButton = ({content, Icon, source}) => {
+const SmartButton = ({content, Icon, source, theme}) => {
+    const buttonClasses = theme === 'dark'
+        ? "bg-neutral-700 text-white"
+        : "bg-gray-100 text-gray-800 border border-gray-300";
+
+    const hoverButtonClasses = theme === 'dark'
+        ? "hover:bg-neutral-700"
+        : "hover:bg-gray-200";
+
+    const iconColorClasses = theme === 'dark'
+        ? "text-gray-400 group-hover:text-white"
+        : "text-gray-600 group-hover:text-black";
+
+
     return (
         <Link to={source}>
              <button
-      className="group flex items-center gap-2 px-5 py-3 bg-[#212121] text-white text-lg font-extrabold rounded-xl active:scale-95 transition-transform"
+      className={`group flex items-center gap-2 px-5 py-3 text-lg font-extrabold rounded-xl active:scale-95 transition-transform duration-300
+                  ${buttonClasses} ${hoverButtonClasses}`}
     >
-      {/* Icon with hover animation */}
       <div className="transition-transform duration-300 ease-in-out group-hover:scale-125 group-hover:-translate-y-1">
-        <Icon className="w-[30px] h-[30px] text-gray-400 group-hover:text-white transition-colors duration-300" />
+        <Icon className={`w-[30px] h-[30px] ${iconColorClasses}`} />
       </div>
 
-      {/* Text with hover animation */}
       <span className="transition-transform duration-300 ease-in-out group-hover:-translate-y-1">
         {content}
       </span>
     </button>
         </Link>
-   
   );
-//    return (
-//     <button className="group flex items-center  px-4 py-3 pl-5 bg-[#212121] text-white text-lg font-extrabold rounded-xl active:scale-95 transition-transform">
-//       <div className="transition-transform duration-500 ease-linear group-hover:scale-125">
-//         <Icon className="w-[30px] h-[30px] text-gray-400 group-hover:text-white transition-transform duration-300 ease-in-out group-hover:translate-x-5 group-hover:scale-110" />
-//       </div>
-//       <span className="ml-2 transition-opacity duration-500 ease-linear group-hover:opacity-0">
-//         {content}
-//       </span>
-//     </button>
-//   );
 };
-
-
 
 export default SmartButton;

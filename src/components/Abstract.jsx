@@ -4,7 +4,7 @@ import AbstractBio from "./AbstractBio";
 
 const Abstract = () => {
   return (
-    <div className="relative h-[83vh] mx-4 bg-[url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg')] rounded-xl bg-cover bg-center flex items-center justify-center">
+    <div className="relative h-[83vh] bg-[url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg')] rounded-xl bg-cover bg-center flex items-center justify-center">
       <div className="absolute inset-0 backdrop-blur-md bg-black/10 rounded-lg"></div>
 
       <Typography

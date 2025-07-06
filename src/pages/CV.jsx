@@ -3,8 +3,8 @@ export default function CV({ currentTheme }) {
     <div
       className={`min-h-screen p-6 sm:p-10 ${
         currentTheme === "dark"
-          ? "bg-[#242424] text-gray-200"
-          : "bg-gray-100 text-gray-800"
+          ? "text-gray-200"
+          : "text-gray-800"
       }`}
     >
       <div
@@ -15,21 +15,17 @@ export default function CV({ currentTheme }) {
         <header className="text-center space-y-1">
           <h1 className="text-4xl font-bold text-inherit">Rajat Makholiya</h1>
           <p className="text-lg text-inherit">Full-stack developer</p>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm">
             India | +91 8979140288 |{" "}
             <a
               href="mailto:rajatmakholiya07@gmail.com"
-              className={`underline ${
-                currentTheme === "dark" ? "text-teal-400" : "text-teal-600"
-              }`}
+              
             >
               rajatmakholiya07@gmail.com
             </a>
           </p>
           <div
-            className={`flex justify-center gap-4 ${
-              currentTheme === "dark" ? "text-teal-400" : "text-teal-600"
-            }`}
+            className={`flex justify-center gap-4 `}
           >
             <a
               href="https://www.linkedin.com/in/rajat-makholiya-1b92a1222/"

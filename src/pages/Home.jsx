@@ -1,9 +1,6 @@
-import React from "react";
 import Abstract from "../components/Abstract";
 import { Stack, Typography } from "@mui/material";
-
 import SchoolIcon from "@mui/icons-material/School";
-import { Opacity } from "@mui/icons-material";
 
 const Home = () => {
   return (
@@ -37,7 +34,6 @@ const Home = () => {
             a look at my work and let’s build something impactful together!
           </Typography>
           <br />
-          {/* <hr /> */}
           <Stack
             container
             direction={"row"}
@@ -52,7 +48,7 @@ const Home = () => {
                 <Typography
                   variant="body1"
                   paddingLeft={2}
-                  color="textDisabled"
+                  color="textSecondary"
                   fontWeight={500}
                 >
                   Artificial Intelligence
@@ -60,7 +56,7 @@ const Home = () => {
                 <Typography
                   variant="body1"
                   paddingLeft={2}
-                  color="textDisabled"
+                  color="textSecondary"
                   fontWeight={500}
                 >
                   Blockchain and DeFi
@@ -68,7 +64,7 @@ const Home = () => {
                 <Typography
                   variant="body1"
                   paddingLeft={2}
-                  color="textDisabled"
+                  color="textSecondary"
                   fontWeight={500}
                 >
                   DevOps and Cloud
@@ -84,12 +80,12 @@ const Home = () => {
                 <Stack>
                   <Typography
                     variant="body1"
-                    color="textDisabled"
+                    color="textSecondary"
                     fontWeight={500}
                   >
                     Bachelor of Computer Application
                   </Typography>
-                  <Typography variant="body2" color="textDisabled">
+                  <Typography variant="body2" color="textSecondary">
                     Osmania University, Hyderabad
                   </Typography>
                 </Stack>
@@ -99,12 +95,12 @@ const Home = () => {
                 <Stack>
                   <Typography
                     variant="body1"
-                    color="textDisabled"
+                    color="textSecondary"
                     fontWeight={500}
                   >
                     Master in Computer Application
                   </Typography>
-                  <Typography variant="body2" color="textDisabled">
+                  <Typography variant="body2" color="textSecondary">
                     Savitribai Phule Pune University, Pune
                   </Typography>
                 </Stack>
@@ -130,7 +126,7 @@ const Home = () => {
                 {" "}
                 20+{" "}
               </Typography>
-              <Typography variant="body2" color="textDisabled">
+              <Typography variant="body2" color="textSecondary">
                 Projects Completed{" "}
               </Typography>
             </Stack>
@@ -144,7 +140,7 @@ const Home = () => {
                 {" "}
                 5+{" "}
               </Typography>
-              <Typography variant="body2" color="textDisabled">
+              <Typography variant="body2" color="textSecondary">
                 {" "}
                 Years of Coding Experience{" "}
               </Typography>
@@ -159,7 +155,7 @@ const Home = () => {
                 {" "}
                 3{" "}
               </Typography>
-              <Typography variant="body2" color="textDisabled">
+              <Typography variant="body2" color="textSecondary">
                 {" "}
                 Years of Industry Experience{" "}
               </Typography>
