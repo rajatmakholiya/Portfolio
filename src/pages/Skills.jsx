@@ -8,100 +8,60 @@ import {
   Settings,
   Bird,
 } from "lucide-react";
-
-import apiPng from "../assets/icons/api.png";
-import awsPng from "../assets/icons/aws.png";
-import cPng from "../assets/icons/c.png";
-import cicdPng from "../assets/icons/cicd.png";
-import cppPng from "../assets/icons/cpp.png";
-import css3Png from "../assets/icons/css-3.png";
-import dockerPng from "../assets/icons/docker.png";
-import firebasePng from "../assets/icons/firebase.png";
-import gitPng from "../assets/icons/git.png";
-import html from "../assets/icons/html-5.png";
-import yaml from "../assets/icons/yaml.png";
-import githubPng from "../assets/icons/github.png";
-import go from "../assets/icons/go-lang.png";
-import js from "../assets/icons/js.png";
-import sql from "../assets/icons/sql.png";
-import python from "../assets/icons/python.png";
-import TypeScript from "../assets/icons/typescript.png";
-import react from "../assets/icons/react.png";
-import vue from "../assets/icons/vue.png";
-import mui from "../assets/icons/MUI.png";
-import zustand from "../assets/icons/zustand.png";
-import next from "../assets/icons/next.png";
-import tailwind from "../assets/icons/Tailwind.png";
-import redux from "../assets/icons/redux.png";
-import vite from "../assets/icons/vite.png";
-import spline from "../assets/icons/spline.png";
-import node from "../assets/icons/node.png";
-import nest from "../assets/icons/nest.png";
-import jwt from "../assets/icons/jwt.png";
-import ws from "../assets/icons/websocket.png";
-import mongo from "../assets/icons/mongo.png";
-import redis from "../assets/icons/redis.png";
-import postgres from "../assets/icons/postgres.png";
-import oracle from "../assets/icons/oracle.png";
-import MySQL from "../assets/icons/mysql.png";
-import Jenkins from "../assets/icons/jenkins.png";
-import vercel from "../assets/icons/vercel.png";
-import Kubernetes from "../assets/icons/kubernetes.png";
-import ga from "../assets/icons/github actions.png";
-import Netlify from "../assets/icons/netlify.png";
+import IMAGES from "../assets/img";
 
 const skillIcons = {
-  C: cPng,
-  "C++": cppPng,
-  HTML5: html,
-  CSS3: css3Png,
-  YAML: yaml,
-  Go: go,
-  JavaScript: js,
-  SQL: sql,
-  Python: python,
-  TypeScript: TypeScript,
+  C: IMAGES.cPng,
+  "C++": IMAGES.cppPng,
+  HTML5: IMAGES.html,
+  CSS3: IMAGES.css3Png,
+  YAML: IMAGES.yaml,
+  Go: IMAGES.go,
+  JavaScript: IMAGES.js,
+  SQL: IMAGES.sql,
+  Python: IMAGES.python,
+  TypeScript: IMAGES.TypeScript,
   "Shell/Bash": Terminal,
 
   // Frontend
-  React: react,
-  Next: next,
-  Vue: vue,
-  Tailwind: tailwind,
-  "Material-UI": mui,
-  Redux: redux,
-  Zustand: zustand,
-  Vite: vite,
-  "React Native": react,
-  Spline: spline,
+  React: IMAGES.react,
+  Next: IMAGES.next,
+  Vue: IMAGES.vue,
+  Tailwind: IMAGES.tailwind,
+  "Material-UI": IMAGES.mui,
+  Redux: IMAGES.redux,
+  Zustand: IMAGES.zustand,
+  Vite: IMAGES.vite,
+  "React Native": IMAGES.react,
+  Spline: IMAGES.spline,
 
   // Backend
-  "Node/Express": node,
-  NestJS: nest,
-  "RESTful APIs": apiPng,
-  Websockets: ws,
-  PythonBackend: python,
-  JWT: jwt,
+  "Node/Express": IMAGES.node,
+  NestJS: IMAGES.nest,
+  "RESTful APIs": IMAGES.apiPng,
+  Websockets: IMAGES.ws,
+  PythonBackend: IMAGES.python,
+  JWT: IMAGES.jwt,
 
   // Databases
-  MongoDB: mongo,
-  Postgres: postgres,
-  Redis: redis,
-  MySQL: MySQL,
-  Oracle: oracle,
-  Firebase: firebasePng,
+  MongoDB: IMAGES.mongo,
+  Postgres: IMAGES.postgres,
+  Redis: IMAGES.redis,
+  MySQL: IMAGES.MySQL,
+  Oracle: IMAGES.oracle,
+  Firebase: IMAGES.firebasePng,
 
   // DevOps and Cloud
-  Docker: dockerPng,
-  Kubernetes: Kubernetes,
-  Git: gitPng,
-  GitHub: githubPng,
-  AWS: awsPng,
-  "Github Actions": ga,
-  Jenkins: Jenkins,
-  Netlify: Netlify,
-  Vercel: vercel,
-  "CI/CD": cicdPng,
+  Docker: IMAGES.dockerPng,
+  Kubernetes: IMAGES.Kubernetes,
+  Git: IMAGES.gitPng,
+  GitHub: IMAGES.githubPng,
+  AWS: IMAGES.awsPng,
+  "Github Actions": IMAGES.ga,
+  Jenkins: IMAGES.Jenkins,
+  Netlify: IMAGES.Netlify,
+  Vercel: IMAGES.vercel,
+  "CI/CD": IMAGES.cicdPng,
 
   // Personal & Creative (all Lucide icons)
   "Critical Thinking": Brain,
