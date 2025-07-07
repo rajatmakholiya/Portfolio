@@ -4,52 +4,9 @@
     "tech": "Tailwind Vite + Redux",
     "date": "Oct 2023 - Jan 2024",
     "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },
-
-   {
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },
-
-   {
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },
-
-   {
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },{
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },
-
-   {
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
-  },
-  {
-    "project": "Real Estate Marketplace",
-    "tech": "Tailwind Vite + Redux",
-    "date": "Oct 2023 - Jan 2024",
-    "info": "A site similar to various online real estate platforms such as MagicBricks, where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
-    "link": ""
+    "link": "https://real-estate-marketplace-liard.vercel.app/",
+    "codeLink":"https://github.com/rajatmakholiya/RealEstateMarketplace",
+    "image":""
   }
 
   
