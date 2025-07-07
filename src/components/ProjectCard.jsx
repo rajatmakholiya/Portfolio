@@ -10,38 +10,38 @@ const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
   return (
     <Card
       sx={{
-        maxWidth: 345,
+        maxWidth: 320,
         backdropFilter: "blur(10px)",
         border: "1px solid rgba(255, 255, 255, 0.1)",
         borderRadius: "16px",
       }}
     >
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 200 }}
         image={image}
         title="Real Estate Marketplace"
       />
-      <CardContent sx={{ padding: 2 }}>
-        <Typography variant="h5" component="div">
+      <CardContent>
+        <Typography variant="h6" component="div">
           {project}
         </Typography>
         <Typography gutterBottom variant="subtitle2" color="text.secondary">
           {tech}
         </Typography>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+        <Typography variant="body2" fontSize={"small"} sx={{ color: "text.secondary" }}>
           {info}
         </Typography>
       </CardContent>
       <Stack
         direction="row"
         alignItems="center"
-        justifyContent="space-around"
+        justifyContent="space-between"
         paddingX={2}
         paddingBottom={2}
       >
         <Typography
           variant="subtitle2"
-          sx={{ color: "text.secondary", marginLeft: 1 }}
+          sx={{ color: "text.secondary"}}
         >
           {date}
         </Typography>

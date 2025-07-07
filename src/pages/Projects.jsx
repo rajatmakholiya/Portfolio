@@ -25,7 +25,7 @@ const Projects = () => {
         I enjoy making things. Here are a selection of projects that I have
         worked on over the years.
       </Typography>
-      <div className="mx-5 mt-5 flex gap-4 justify-center flex-wrap">
+      <div className="mx-5 mt-5 flex gap-7 justify-center flex-wrap">
         {projects.map((proj, idx) => (
           <ProjectCard
             key={idx}
