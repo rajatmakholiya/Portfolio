@@ -34,6 +34,9 @@ const Projects = () => {
             date={proj.date}
             info={proj.info}
             link={proj.link}
+            codelink={proj.codeLink}
+            image={proj.image}
+
           />
         ))}
       </div>
