@@ -24,7 +24,46 @@
     "link": "https://modern-collection.vercel.app/",
     "codeLink":"https://github.com/rajatmakholiya/Fashion-Commerce",
     "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/modern+collections.png"
+  },
+  {
+    "project": "Neighbout Gram",
+    "tech": "Vanilla JS + Node",
+    "date": "June 2025",
+    "info": "Modern Collections is a modern e-commerce platform to explore and shop curated 3D visual designs, offering a smooth, stylish, and interactive shopping experience.",
+    "link": "https://neighbour-gram.vercel.app//",
+    "codeLink":"hhttps://github.com/rajatmakholiya/Neighbour-Gram",
+    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/neighbour+gram.png"
+  },
+  {
+    "project": "Notesnap",
+    "tech": "Python + Next JS (Vite)",
+    "date": "Jan 2025",
+    "info": "An AI-powered app that converts videos into easy-to-read notes. It automatically summarizes key topics from the video, helping users quickly understand and review important points.",
+    "link": "https://notesnap-omega.vercel.app/login",
+    "codeLink":"https://github.com/rajatmakholiya/Notesnap",
+    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/notesnap.png"
+  },
+  {
+    "project": "Pahari Rasoi Ghar",
+    "tech": "Next JS (Vite) + Typescript",
+    "date": "June 2025 - July 2025",
+    "info": "An online food ordering platform designed for small-scale restaurants and PGs to sell affordable, home-style meals to customers seeking regular, budget-friendly food options. It connects local food providers with nearby customers for daily, homely meals.",
+    "link": "https://pahadi-rasoi-ghar.vercel.app/",
+    "codeLink":"https://github.com/rajatmakholiya/Pahadi-Rasoi-Ghar",
+    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/pahari+rasoi+ghar.png"
+  },
+  {
+    "project": "PRG Admin",
+    "tech": "Next JS (Vite) + Typescript",
+    "date": "June 2025 - July 2025",
+    "info": "A dedicated app for restaurants and PGs to manage their menus, orders, and deliveries. This platform allows food providers to easily list meals, update prices, track customer orders, and manage sales, helping them reach local customers looking for affordable home-style food.",
+    "link": "https://vercel.com/rajat-makholiyas-projects/prg-admin",
+    "codeLink":"https://github.com/rajatmakholiya/PRG-Admin",
+    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/prg+admin.png"
   }
+
+  
+
   
 
   
