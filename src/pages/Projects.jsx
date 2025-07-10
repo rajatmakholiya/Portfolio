@@ -23,7 +23,7 @@ const Projects = () => {
         marginTop={3}
       >
         I enjoy making things. Here are a selection of projects that I have
-        worked on over the years.
+        worked on recently.
       </Typography>
       <div className="mx-5 mt-5 flex gap-7 justify-center flex-wrap">
         {projects.map((proj, idx) => (

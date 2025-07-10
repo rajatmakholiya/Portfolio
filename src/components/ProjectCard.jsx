@@ -14,6 +14,9 @@ const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
         backdropFilter: "blur(10px)",
         border: "1px solid rgba(255, 255, 255, 0.1)",
         borderRadius: "16px",
+        display: "flex",
+        flexDirection: "column",
+        height: "100%",
       }}
     >
       <CardMedia
@@ -36,8 +39,7 @@ const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
         direction="row"
         alignItems="center"
         justifyContent="space-between"
-        paddingX={2}
-        paddingBottom={2}
+        sx={{ marginTop: "auto", paddingX: 2, paddingBottom: 2 }}
       >
         <Typography
           variant="subtitle2"
@@ -46,38 +48,42 @@ const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
           {date}
         </Typography>
         <Stack direction="row" alignItems="center" gap={2}>
-          <Stack
-            direction="row"
-            alignItems="center"
-            sx={{
-              cursor: "pointer",
-              color: "text.secondary",
-              transition: "color 0.3s ease",
-              "&:hover": {
-                color: "text.primary",
-              },
-            }}
-            onClick={() => window.open(codelink, "_blank")}
-          >
-            <GitHubIcon fontSize="small" sx={{ mr: 0.5 }} />
-            <Typography variant="subtitle2">Code</Typography>
-          </Stack>
-          <Stack
-            direction="row"
-            alignItems="center"
-            sx={{
-              cursor: "pointer",
-              color: "text.secondary",
-              transition: "color 0.3s ease",
-              "&:hover": {
-                color: "text.primary",
-              },
-            }}
-            onClick={() => window.open(link, "_blank")}
-          >
-            <LaunchIcon fontSize="small" sx={{ mr: 0.5 }} />
-            <Typography variant="subtitle2">Visit</Typography>
-          </Stack>
+          {codelink && (
+            <Stack
+              direction="row"
+              alignItems="center"
+              sx={{
+                cursor: "pointer",
+                color: "text.secondary",
+                transition: "color 0.3s ease",
+                "&:hover": {
+                  color: "text.primary",
+                },
+              }}
+              onClick={() => window.open(codelink, "_blank")}
+            >
+              <GitHubIcon fontSize="small" sx={{ mr: 0.5 }} />
+              <Typography variant="subtitle2">Code</Typography>
+            </Stack>
+          )}
+          {link && (
+            <Stack
+              direction="row"
+              alignItems="center"
+              sx={{
+                cursor: "pointer",
+                color: "text.secondary",
+                transition: "color 0.3s ease",
+                "&:hover": {
+                  color: "text.primary",
+                },
+              }}
+              onClick={() => window.open(link, "_blank")}
+            >
+              <LaunchIcon fontSize="small" sx={{ mr: 0.5 }} />
+              <Typography variant="subtitle2">Visit</Typography>
+            </Stack>
+          )}
         </Stack>
       </Stack>
     </Card>

@@ -1,5 +1,23 @@
 [
   {
+    "project": "ToDo - Kanban App",
+    "tech": "Next JS",
+    "date": "July 2025",
+    "info": "A modern drag-and-drop task board app with task creation, filters, dark mode, sidebar, and auto-closing toast notifications. Built with Next.js and TypeScript.",
+    "link": "https://to-do-kanban-app-gamma.vercel.app/",
+    "codeLink": "https://github.com/rajatmakholiya/To-Do-Kanban-App",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/todo+kanban.png"
+  },
+  {
+    "project": "Minimalist Portfolio",
+    "tech": "Vue JS",
+    "date": "July 2025",
+    "info": "A minimalistic and easy-to-use portfolio website designed to showcase projects, skills, and personal information. It focuses on simplicity, clean design, and fast navigation for a smooth user experience.",
+    "link": "https://portfolio2-0-indol-three.vercel.app/",
+    "codeLink": "https://github.com/rajatmakholiya/Portfolio2.0",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/minimalist+portfolio.png"
+  },
+  {
     "project": "Real Estate Marketplace",
     "tech": "Tailwind Vite + Redux",
     "date": "Oct 2023 - Jan 2024",
@@ -67,7 +85,7 @@
     "tech": "Go",
     "date": "July 2025",
     "info": "A lightweight web news scraper built using Go that automatically collects and extracts the latest headlines, articles, and metadata from various news websites. It efficiently fetches, parses, and structures news content for easy analysis or integration into other apps.",
-    "link": "#",
+    "link": "",
     "codeLink": "https://github.com/rajatmakholiya/News-Scraper",
     "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/newsscraper.jpg"
   },
@@ -76,26 +94,8 @@
     "tech": "React Native",
     "date": "June 2025 - July 2025",
     "info": "A travel booking app that lets users easily book cabs for intercity and interstate journeys. It connects passengers with trusted drivers, offering affordable and convenient options for long-distance travel.",
-    "link": "#",
+    "link": "",
     "codeLink": "https://github.com/rajatmakholiya/sawari-travel-booking-native",
     "image": ""
-  },
-  {
-    "project": "ToDo - Kanban App",
-    "tech": "Next JS",
-    "date": "July 2025",
-    "info": "A modern drag-and-drop task board app with task creation, filters, dark mode, sidebar, and auto-closing toast notifications. Built with Next.js and TypeScript.",
-    "link": "https://to-do-kanban-app-gamma.vercel.app/",
-    "codeLink": "https://github.com/rajatmakholiya/To-Do-Kanban-App",
-    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/todo+kanban.png"
-  },
-  {
-    "project": "Minimalist Portfolio",
-    "tech": "Vue JS",
-    "date": "July 2025",
-    "info": "A minimalistic and easy-to-use portfolio website designed to showcase projects, skills, and personal information. It focuses on simplicity, clean design, and fast navigation for a smooth user experience.",
-    "link": "https://portfolio2-0-indol-three.vercel.app/",
-    "codeLink": "https://github.com/rajatmakholiya/Portfolio2.0",
-    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/minimalist+portfolio.png"
   }
 ]
