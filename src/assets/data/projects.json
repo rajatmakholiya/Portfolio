@@ -5,8 +5,8 @@
     "date": "Oct 2023 - Jan 2024",
     "info": "A site where users can buy, sell, and rent properties. It includes features like property listings, user authentication, and a search function.",
     "link": "https://real-estate-marketplace-liard.vercel.app/",
-    "codeLink":"https://github.com/rajatmakholiya/RealEstateMarketplace",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/realestatemarketplace.png"
+    "codeLink": "https://github.com/rajatmakholiya/RealEstateMarketplace",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/realestatemarketplace.png"
   },
   {
     "project": "Fidget Around",
@@ -14,16 +14,17 @@
     "date": "June 2025 - Current",
     "info": "Fidget Around is a creative, interactive project featuring a collection of playful 3D and visual designs that users can explore to relax, and de-stress. Whether you're looking to take a quick break or simply enjoy mesmerizing interactions.",
     "link": "https://fidget-around.vercel.app/",
-    "codeLink":"https://github.com/rajatmakholiya/Fidget-Around",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/Fidget+Around.png"
-  },{
+    "codeLink": "https://github.com/rajatmakholiya/Fidget-Around",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/Fidget+Around.png"
+  },
+  {
     "project": "Modern Collections",
     "tech": "Next JS",
     "date": "May 2025",
     "info": "Modern Collections is a modern e-commerce platform to explore and shop curated 3D visual designs, offering a smooth, stylish, and interactive shopping experience.",
     "link": "https://modern-collection.vercel.app/",
-    "codeLink":"https://github.com/rajatmakholiya/Fashion-Commerce",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/modern+collections.png"
+    "codeLink": "https://github.com/rajatmakholiya/Fashion-Commerce",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/modern+collections.png"
   },
   {
     "project": "Neighbout Gram",
@@ -31,8 +32,8 @@
     "date": "June 2025",
     "info": "Modern Collections is a modern e-commerce platform to explore and shop curated 3D visual designs, offering a smooth, stylish, and interactive shopping experience.",
     "link": "https://neighbour-gram.vercel.app//",
-    "codeLink":"hhttps://github.com/rajatmakholiya/Neighbour-Gram",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/neighbour+gram.png"
+    "codeLink": "hhttps://github.com/rajatmakholiya/Neighbour-Gram",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/neighbour+gram.png"
   },
   {
     "project": "Notesnap",
@@ -40,8 +41,8 @@
     "date": "Jan 2025",
     "info": "An AI-powered app that converts videos into easy-to-read notes. It automatically summarizes key topics from the video, helping users quickly understand and review important points.",
     "link": "https://notesnap-omega.vercel.app/login",
-    "codeLink":"https://github.com/rajatmakholiya/Notesnap",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/notesnap.png"
+    "codeLink": "https://github.com/rajatmakholiya/Notesnap",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/notesnap.png"
   },
   {
     "project": "Pahari Rasoi Ghar",
@@ -49,8 +50,8 @@
     "date": "June 2025 - July 2025",
     "info": "An online food ordering platform designed for small-scale restaurants and PGs to sell affordable, home-style meals to customers seeking regular, budget-friendly food options. It connects local food providers with nearby customers for daily, homely meals.",
     "link": "https://pahadi-rasoi-ghar.vercel.app/",
-    "codeLink":"https://github.com/rajatmakholiya/Pahadi-Rasoi-Ghar",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/pahari+rasoi+ghar.png"
+    "codeLink": "https://github.com/rajatmakholiya/Pahadi-Rasoi-Ghar",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/pahari+rasoi+ghar.png"
   },
   {
     "project": "PRG Admin",
@@ -58,13 +59,43 @@
     "date": "June 2025 - July 2025",
     "info": "A dedicated app for restaurants and PGs to manage their menus, orders, and deliveries. This platform allows food providers to easily list meals, update prices, track customer orders, and manage sales, helping them reach local customers looking for affordable home-style food.",
     "link": "https://vercel.com/rajat-makholiyas-projects/prg-admin",
-    "codeLink":"https://github.com/rajatmakholiya/PRG-Admin",
-    "image":"https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/prg+admin.png"
+    "codeLink": "https://github.com/rajatmakholiya/PRG-Admin",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/prg+admin.png"
+  },
+  {
+    "project": "News Scraper",
+    "tech": "Go",
+    "date": "July 2025",
+    "info": "A lightweight web news scraper built using Go that automatically collects and extracts the latest headlines, articles, and metadata from various news websites. It efficiently fetches, parses, and structures news content for easy analysis or integration into other apps.",
+    "link": "#",
+    "codeLink": "https://github.com/rajatmakholiya/News-Scraper",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/newsscraper.jpg"
+  },
+  {
+    "project": "Sawari - Travel Partner App",
+    "tech": "React Native",
+    "date": "June 2025 - July 2025",
+    "info": "A travel booking app that lets users easily book cabs for intercity and interstate journeys. It connects passengers with trusted drivers, offering affordable and convenient options for long-distance travel.",
+    "link": "#",
+    "codeLink": "https://github.com/rajatmakholiya/sawari-travel-booking-native",
+    "image": ""
+  },
+  {
+    "project": "ToDo - Kanban App",
+    "tech": "Next JS",
+    "date": "July 2025",
+    "info": "A modern drag-and-drop task board app with task creation, filters, dark mode, sidebar, and auto-closing toast notifications. Built with Next.js and TypeScript.",
+    "link": "https://to-do-kanban-app-gamma.vercel.app/",
+    "codeLink": "https://github.com/rajatmakholiya/To-Do-Kanban-App",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/todo+kanban.png"
+  },
+  {
+    "project": "Minimalist Portfolio",
+    "tech": "Vue JS",
+    "date": "July 2025",
+    "info": "A minimalistic and easy-to-use portfolio website designed to showcase projects, skills, and personal information. It focuses on simplicity, clean design, and fast navigation for a smooth user experience.",
+    "link": "https://portfolio2-0-indol-three.vercel.app/",
+    "codeLink": "https://github.com/rajatmakholiya/Portfolio2.0",
+    "image": "https://project-thumbnail-images.s3.ap-south-1.amazonaws.com/minimalist+portfolio.png"
   }
-
-  
-
-  
-
-  
 ]
