@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Abstract />
-      <div className="mx-5 my-10 px-20 ">
+      <div className="mx-auto my-10 px-6 md:px-12 lg:px-20 max-w-4xl">
         <Stack>
           <Typography
             variant="h5"
@@ -36,13 +36,14 @@ const Home = () => {
           <br />
           <Stack
             container
-            direction={"row"}
+            direction={{ xs: "column", md: "row" }}
             justifyContent={"space-between"}
             marginTop={3}
+            spacing={{ xs: 4, md: 2 }}
           >
             <Stack spacing={1}>
               <Typography variant="h6" fontWeight={700}>
-                Pationate About
+                Passionate About
               </Typography>
               <Stack spacing={1}>
                 <Typography
@@ -111,7 +112,7 @@ const Home = () => {
           <hr style={{ opacity: 0.4 }} />
           <Stack
             spacing={2}
-            direction={"row"}
+            direction={{ xs: "column", md: "row" }}
             justifyContent={"space-between"}
             marginTop={5}
             alignItems={"center"}
@@ -120,7 +121,7 @@ const Home = () => {
               border="1px solid grey"
               borderRadius={3}
               padding={2}
-              width={250}
+              width={{ xs: "100%", md: 250 }}
             >
               <Typography variant="subtitle1" fontWeight={700}>
                 {" "}
@@ -134,7 +135,7 @@ const Home = () => {
               border="1px solid grey"
               borderRadius={3}
               padding={2}
-              width={250}
+              width={{ xs: "100%", md: 250 }}
             >
               <Typography variant="subtitle1" fontWeight={700}>
                 {" "}
@@ -149,7 +150,7 @@ const Home = () => {
               border="1px solid grey"
               borderRadius={3}
               padding={2}
-              width={250}
+              width={{ xs: "100%", md: 250 }}
             >
               <Typography variant="subtitle1" fontWeight={700}>
                 {" "}

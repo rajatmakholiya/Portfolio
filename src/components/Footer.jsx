@@ -22,7 +22,7 @@ const Footer = ({ currentTheme }) => {
         currentTheme === "dark" ? "bg-black/10" : "bg-gray-100/10"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex justify-between items-center text-center">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center gap-4 sm:gap-0">
         <Typography variant="body2" className="text-gray-500">
           © {new Date().getFullYear()} Rajat Makholiya. All Rights Reserved.
         </Typography>
