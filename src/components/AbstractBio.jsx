@@ -9,18 +9,22 @@ export default function AbstractBio() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=11oZCTtZhI8B4b1sKidoZNdYpojfKsiLG";
+      "https://drive.google.com/uc?export=download&id=19aBB0AO5wmxgGC3ww4gZGUCKeMbm2jlS";
     link.download = "Rajat.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
-
   return (
-    <Grid container spacing={{ xs: 2, md: 4 }} alignItems="center" justifyContent="center">
+    <Grid
+      container
+      spacing={{ xs: 2, md: 4 }}
+      alignItems="center"
+      justifyContent="center"
+    >
       {/* Profile Picture and Links */}
-      <Grid item xs={12} md={4} lg={3}>
+      <Grid item xs={12} md={4} lg={5}>
         <Stack
           justifyContent="center"
           alignItems="center"
@@ -35,7 +39,11 @@ export default function AbstractBio() {
           <Typography variant="h5" fontWeight={500}>
             Rajat Makholiya
           </Typography>
-          <Typography variant="subtitle1" fontWeight={400} sx={{ opacity: 0.9 }}>
+          <Typography
+            variant="subtitle1"
+            fontWeight={400}
+            sx={{ opacity: 0.9 }}
+          >
             Web Developer
           </Typography>
           <Stack direction="row" spacing={2} alignItems="center">
@@ -46,7 +54,9 @@ export default function AbstractBio() {
             />
             <LinkedInIcon
               onClick={() =>
-                window.open("https://www.linkedin.com/in/rajat-makholiya-1b92a1222/")
+                window.open(
+                  "https://www.linkedin.com/in/rajat-makholiya-1b92a1222/"
+                )
               }
               cursor="pointer"
               sx={{ "&:hover": { color: "#d9d9c0" } }}
@@ -90,12 +100,15 @@ export default function AbstractBio() {
 
       {/* Bio Text */}
       <Grid item xs={12} md={8} lg={7}>
-        <Stack textAlign="center" sx={{ color: "white" }}>
+        <Stack
+          textAlign="center"
+          sx={{ color: "white", width: "90%", mx: "auto" }}
+        >
           <Typography
             fontWeight={700}
             fontFamily="Poppins"
             sx={{
-              fontSize: { xs: '2.5rem', sm: '3.5rem', md: '4.5rem' } // Responsive font size
+              fontSize: { xs: "2.5rem", sm: "3.5rem", md: "4.5rem" }, // Responsive font size
             }}
           >
             Hi! I am{" "}
@@ -105,7 +118,7 @@ export default function AbstractBio() {
               fontFamily="cursive"
               color="#d9d9c0"
               sx={{
-                fontSize: 'inherit' // Inherits responsive font size
+                fontSize: "inherit", // Inherits responsive font size
               }}
             >
               Rajat
@@ -115,7 +128,11 @@ export default function AbstractBio() {
             fontWeight={700}
             fontFamily="Poppins"
             sx={{
-              fontSize: { xs: '1.5rem', sm: '2rem', md: '3rem' } // Responsive font size
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "3rem",
+              }, // Responsive font size
             }}
           >
             A Developer And Software Engineer
@@ -125,7 +142,7 @@ export default function AbstractBio() {
             fontWeight={400}
             fontFamily="Poppins"
             marginTop={3}
-            sx={{ opacity: 0.9, fontSize: { xs: '0.875rem', md: '1rem' } }}
+            sx={{ opacity: 0.9, fontSize: { xs: "0.875rem", md: "1rem" } }}
           >
             I'm passionate about crafting experiences and exploring new
             horizons.

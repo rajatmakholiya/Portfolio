@@ -4,7 +4,7 @@ import SchoolIcon from "@mui/icons-material/School";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen mx-10">
       <Abstract />
       <div className="mx-auto my-10 px-6 md:px-12 lg:px-20 max-w-4xl">
         <Stack>
