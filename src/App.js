@@ -30,7 +30,7 @@ const AppRoutes = ({ currentTheme }) => {
           path="/"
           element={
             <PageTransition>
-              <Home />
+              <Home currentTheme={currentTheme}/>
             </PageTransition>
           }
         />

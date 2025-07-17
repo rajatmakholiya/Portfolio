@@ -2,10 +2,10 @@ import Abstract from "../components/Abstract";
 import { Stack, Typography } from "@mui/material";
 import SchoolIcon from "@mui/icons-material/School";
 
-const Home = () => {
+const Home = ({currentTheme}) => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen mx-10">
-      <Abstract />
+    <div className="flex flex-col items-center justify-center min-h-screen mx-10 ">
+      <Abstract currentTheme={currentTheme}/>
       <div className="mx-auto my-10 px-6 md:px-12 lg:px-20 max-w-4xl">
         <Stack>
           <Typography
