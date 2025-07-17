@@ -5,10 +5,35 @@ import Typography from "@mui/material/Typography";
 import { Stack } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
+import { useState, useEffect, useRef } from "react";
 
-const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
+const ProjectCard = ({ project, tech, date, info, link, codelink, image }) => {
+  const [expanded, setExpanded] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    if (info.length > 100) {
+      setShowMore(true);
+    }
+  }, [info]);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (cardRef.current && !cardRef.current.contains(event.target)) {
+        setExpanded(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [cardRef]);
+
   return (
     <Card
+      ref={cardRef}
       sx={{
         maxWidth: 320,
         backdropFilter: "blur(10px)",
@@ -31,8 +56,27 @@ const ProjectCard = ({ project, tech, date, info, link, codelink, image}) => {
         <Typography gutterBottom variant="subtitle2" color="text.secondary">
           {tech}
         </Typography>
-        <Typography variant="body2" fontSize={"small"} sx={{ color: "text.secondary" }}>
-          {info}
+        <Typography
+          variant="body2"
+          fontSize={"small"}
+          sx={{ color: "text.secondary" }}
+        >
+          {expanded ? info : `${info.substring(0, 100)}`}
+          {showMore && !expanded && (
+            <span
+              onClick={() => setExpanded(true)}
+              style={{ cursor: "pointer", marginLeft: "4px" }}
+            >.... more
+            </span>
+          )}
+          {expanded && (
+            <span
+              onClick={() => setExpanded(false)}
+              style={{ cursor: "pointer", marginLeft: "4px" }}
+            >
+              less
+            </span>
+          )}
         </Typography>
       </CardContent>
       <Stack

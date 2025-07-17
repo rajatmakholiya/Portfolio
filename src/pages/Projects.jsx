@@ -36,7 +36,6 @@ const Projects = () => {
             link={proj.link}
             codelink={proj.codeLink}
             image={proj.image}
-
           />
         ))}
       </div>
