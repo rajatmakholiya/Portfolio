@@ -1,8 +1,29 @@
+import React, { useState, useEffect } from "react";
 import { Typography } from "@mui/material";
 import ProjectCard from "../components/ProjectCard";
-import projects from "../assets/data/projects.json"
+import Papa from "papaparse";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const projectsSheetURL = process.env.REACT_APP_PROJECTS_SHEET_URL;
+
+    if (projectsSheetURL && projectsSheetURL.trim() !== "") {
+      Papa.parse(projectsSheetURL, {
+        download: true,
+        header: true,
+        complete: (results) => {
+          const filteredData = results.data.filter(
+            (item) => item.project && item.project.trim() !== ""
+          );
+          setProjects(filteredData);
+        },
+        error: () => {}
+      });
+    }
+  }, []);
+
   return (
     <>
       <Typography
